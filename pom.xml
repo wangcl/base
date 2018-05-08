@@ -54,6 +54,7 @@
 		<commons.lang3.version>3.7</commons.lang3.version>
 		<commons.configuration2.version>2.2</commons.configuration2.version>
 		<commons.collections4.version>4.1</commons.collections4.version>
+		<commons.codec.version>1.11</commons.codec.version>
 		<velocity.version>1.7</velocity.version>
 		<shiro.version>1.4.0</shiro.version>
 
@@ -230,6 +231,11 @@
 				<groupId>org.apache.commons</groupId>
 				<artifactId>commons-collections4</artifactId>
 				<version>${commons.collections4.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>commons-codec</groupId>
+				<artifactId>commons-codec</artifactId>
+				<version>${commons.codec.version}</version>
 			</dependency>
 			<!-- Velocity -->
 			<dependency>
