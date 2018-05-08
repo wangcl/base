@@ -106,10 +106,6 @@
 		<objenesis.version>2.6</objenesis.version>
 	</properties>
 
-	<prerequisites>
-		<maven>3.0.0</maven>
-	</prerequisites>
-
 	<build>
 		<pluginManagement>
 			<plugins>
